@@ -1,0 +1,14 @@
+    body{
+        /*background:  -webkit-linear-gradient(to top, rgba(0, 0, 255, 0), left rgba(0, 0, 255, 1));
+        background: -webkit-linear-gradient(to top, rgba(0, 0, 255, 0), left rgba(0, 0, 255, 1));
+        background: -moz-linear-gradient(to top, rgba(0, 0, 255, 0), left rgba(0, 0, 255, 1));
+        background: linear-gradient(to top, rgba(0, 0, 255, 0), left rgba(0, 0, 255, 1));*/
+        background: no-repeat;
+        background-color:lightblue;
+    }
+
+    .demographics{
+        width: 200px;
+        height: 20px;
+
+    }
