@@ -8,14 +8,52 @@
     <link rel="stylesheet" href="cssform2.css">
 </head>
 <body>
-    <header class="header">Step 1 Details</header>
+    <header></header>
         <form action="/form2.html" method="GET">
-            <div>
+            <div id="containerDiv">
+               <p> Step 1: Your details </p> <br/></br/>
                 <fieldset>
-                    <label for="name">Name </label>
-                    <input type="text" id="name" class="demographics">
+                    <!--<label >Name<input type="text" id="name" class="demographics"></label>-->
+                     <label>Name<input type="text" placeholder="first and last name"></label>
+                </fieldset>
+                <fieldset>
+                     <label>Email<input type="text"></label>
+                </fieldset>
+                <fieldset>
+                     <label>Phone<input type="text"></label>
+                </fieldset>
+            </div> <br/><br/>
+            <div id="containerDiv">
+                Step 2: Delivery address <br></br>
+                <fieldset>
+                     <label>Address<textarea></textarea></label>
+                </fieldset>
+                <fieldset>
+                     <label>Postal code<input type="text" name="postalCode" id="postal"></label>
+                </fieldset>
+                <fieldset>
+                     <label>Country<input type="text" name="country" id="country"></label>
+                </fieldset>
+            </div> <br/><br/>
+            <div id="containerDiv">
+                Step 3: Card details <br></br>
+                <fieldset>
+                     <label>Card type<br><input type="radio" name="cardType" id="cardType">Visa
+                        <input type="radio"/>AmEx 
+                        <input type="radio"/>Mastercard<label>
+                </fieldset>
+                <fieldset>
+                     <label>Security code<input type="text"></label>
+                </fieldset>
+                <fieldset>
+                     <label>Name on card<input type="text" placeholder="exact name on card"></label> 
                 </fieldset>
             </div>
+                <div style="margin-left: 110px">                
+                     <button type="submit">Buy It!</button>
+                </div>
 
+            </div>
+            
 </body>
 </html>
