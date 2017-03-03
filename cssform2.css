@@ -1,14 +1,12 @@
-    body{
-        /*background:  -webkit-linear-gradient(to top, rgba(0, 0, 255, 0), left rgba(0, 0, 255, 1));
-        background: -webkit-linear-gradient(to top, rgba(0, 0, 255, 0), left rgba(0, 0, 255, 1));
-        background: -moz-linear-gradient(to top, rgba(0, 0, 255, 0), left rgba(0, 0, 255, 1));
-        background: linear-gradient(to top, rgba(0, 0, 255, 0), left rgba(0, 0, 255, 1));*/
-        background: no-repeat;
-        background-color:lightblue;
+    #containerDiv{
+        border: 1px solid rgba(255,255,255,255) ;
+        border-radius: 6px;
+        background-color: lightblue;
+        width: 400px;
+        margin: 10px;
     }
 
-    .demographics{
-        width: 200px;
-        height: 20px;
+    input{
+        margin: 10px;
 
     }
